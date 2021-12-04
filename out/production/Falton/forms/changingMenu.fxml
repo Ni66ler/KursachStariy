@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="309.0" prefWidth="650.0" style="-fx-background-color: #055461;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ChangingMenuController">
+    <children>
+        <TextField fx:id="nameTextField" layoutX="19.0" layoutY="46.0" prefHeight="27.0" prefWidth="283.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <ComboBox fx:id="genreComboBox" layoutX="350.0" layoutY="111.0" prefHeight="25.0" prefWidth="187.0" style="-fx-background-color: BDDABC;" />
+        <ComboBox fx:id="dyeComboBox" layoutX="445.0" layoutY="172.0" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: BDDABC;" />
+        <ComboBox fx:id="materialOfBasisComboBox" layoutX="350.0" layoutY="172.0" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: BDDABC;" />
+        <Button fx:id="backToMenuButton" layoutX="526.0" layoutY="249.0" mnemonicParsing="false" onAction="#backToInfoMenu" prefHeight="37.0" prefWidth="106.0" style="-fx-background-color: BDDABC;" text="Назад">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="confirmChangingButton" layoutX="419.0" layoutY="249.0" mnemonicParsing="false" onAction="#confirmChanging" prefHeight="37.0" prefWidth="106.0" style="-fx-background-color: BDDABC;" text="Применить">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <TextField fx:id="authorTextField" layoutX="19.0" layoutY="109.0" prefHeight="30.0" prefWidth="283.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="22.0" layoutY="80.0" prefHeight="25.0" prefWidth="223.0" text="Введите имя автора:" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="350.0" layoutY="80.0" prefHeight="25.0" prefWidth="223.0" text="Выберите жанр картины:" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="22.0" layoutY="143.0" prefHeight="25.0" prefWidth="223.0" text="Введите год написания:" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="yearTextField" layoutX="19.0" layoutY="172.0" prefHeight="25.0" prefWidth="283.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="imageTextField" layoutX="19.0" layoutY="253.0" prefHeight="30.0" prefWidth="283.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="22.0" layoutY="19.0" prefHeight="25.0" prefWidth="223.0" text="Введите название:" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="23.0" layoutY="208.0" prefHeight="25.0" prefWidth="299.0" text="Введите путь к файлу с изображением," textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="23.0" layoutY="227.0" prefHeight="25.0" prefWidth="321.0" text="а также введите имя файла с расширением" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="351.0" layoutY="143.0" prefHeight="25.0" prefWidth="223.0" text="Характеристика картины:" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="locationTextField" layoutX="348.0" layoutY="46.0" prefHeight="30.0" prefWidth="283.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <Label layoutX="350.0" layoutY="19.0" prefHeight="25.0" prefWidth="223.0" text="Введите местоположение:" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

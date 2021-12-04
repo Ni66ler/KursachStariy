@@ -1,0 +1,9 @@
+Image Link|Name|Author|Genre|Year|Material Of Basis|Dye|Location|
+C:\Users\sherl\IdeaProjects\Falton\src\Images\1607px-Hovhannes_Aivazovsky_-_The_Ninth_Wave_-_Google_Art_Project.jpg|Девятый вал|Иван Айвазовский|Марина|1850|холст|масло|Государственный Русский музей|
+C:\Users\sherl\Pictures\Portrait_of_Dr._Gachet.jpg|Портрет доктора Гоше|Айвазовский|Пейзаж|1888|холст|масло|Kedh|
+C:\Users\sherl\Pictures\1178px-Hieronymus_Bosch_055.jpg|Несение креста|Иероним Босх|Живопись на религиозные темы|1510|деревянная доска|масло|Музей изящных искусств|
+C:\Users\sherl\Pictures\856px-Vincent_Willem_van_Gogh_127.jpg|Подсолнухи|Винсент ван Гог|Натюрморт|1887|холст|масло|Лондонская Национальная галерея|
+C:\Users\sherl\Pictures\874px-Francisco-Goya_-_Portrait-of-the-Actress-Antonia-Zarate.jpg|Портрет актрисы Антонии Сарате|Франсиско Гойя|Портрет|1810|холст|масло|Государственный эрмитаж|
+C:\Users\sherl\Pictures\Min_Svoboda_vedushaya_narod.jpg|Свобода на баррикадах|Эжен Делакруа|Историческая живопись|1830|холст|масло|Лувр|
+C:\Users\sherl\Pictures\Kuindzhi_Dnieper_in_the_morning_1881.jpg|Днепр утром|Архип Куинджи|Пейзаж|1881|холст|масло|Третьяковская галерея|
+C:\Users\sherl\Pictures\1685px-Kuindzhi_After_a_rain_1879.jpg|После дождя|Архип Куинджи|Пейзаж|1879|холст|масло|Третьяковская галерея|

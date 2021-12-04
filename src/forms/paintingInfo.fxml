@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #BDDABC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.InfoMenuController">
+   <children>
+      <Button fx:id="changePaintingButton" layoutX="548.0" layoutY="44.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #055461;" text="Изменить" textFill="WHITE" onAction="#callChangingPaintingMenu" />
+      <Button fx:id="deletePaintingButton" layoutX="548.0" layoutY="93.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #055461;" text="Удалить" textFill="WHITE" onAction="#deletePainting"/>
+      <Button fx:id="backToMenuButton" layoutX="548.0" layoutY="428.0" mnemonicParsing="false" onAction="#backToMainMenu" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #055461;" text="Назад" textFill="WHITE" />
+      <VBox prefHeight="500.0" prefWidth="514.0">
+         <children>
+            <ImageView fx:id="paintingImageView" fitHeight="362.0" fitWidth="513.0" pickOnBounds="true" preserveRatio="true" />
+            <GridPane fx:id="gridPaneInfo" prefHeight="120.0" prefWidth="514.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="223.33331298828125" minWidth="10.0" prefWidth="112.33333333333333" />
+                <ColumnConstraints fx:id="infoColumn" hgrow="SOMETIMES" maxWidth="367.333371480306" minWidth="10.0" prefWidth="359.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="22.333343505859375" minHeight="10.0" prefHeight="21.666656494140625" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="33.0" minHeight="10.0" prefHeight="18.666697184244796" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="27.666646321614586" minHeight="0.0" prefHeight="21.66664632161458" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="23.00002034505208" minHeight="0.0" prefHeight="21.00002034505208" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="39.66668701171875" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="24.33331298828125" minHeight="10.0" prefHeight="20.33331298828125" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Название картины:">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label text="Автор:" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="17.0" prefWidth="84.0" text="Год создания:" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label text="Жанр картины:" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label text="Характеристика: " GridPane.rowIndex="4">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label text="Местоположение: " GridPane.rowIndex="5">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+         </children>
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
